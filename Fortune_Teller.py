@@ -51,24 +51,24 @@ cardDeck = {
 50 : ['The Silver Stag', 'A chase or pursuit', 'Chance at an elusive prize', 'An enigmatic stranger'],
 51 : ['The Bull', 'Rapid progress', 'Ends achieved through brute force and determination', 'A laborer or someone of similar origins'],
 52 : ['The Goat', 'Overcoming obstacles', 'Resilience and tenacity will win the day', 'Someone from harsh circumstances'],
-53 : ['The Cat ', ' You will overhear something', 'Solutions will come through subtlety and discretion', 'Someone frequently disregarded or underestimated'],
-54 : ['The Rat ', ' Subterfuge and underhanded dealings', 'The most clever will win', 'A spy or thief'],
+53 : ['The Cat ', 'You will overhear something', 'Solutions will come through subtlety and discretion', 'Someone frequently disregarded or underestimated'],
+54 : ['The Rat ', 'Subterfuge and underhanded dealings', 'The most clever will win', 'A spy or thief'],
 55 : ['The Two-Headed Serpent', 'Flattery and false promises', 'Grave consequences if you trust the wrong person', 'A charming liar'],
-56 : ['The Spider ', ' Beware of traps and snares', 'Failure unless you spot all the complications', 'Someone of few words and complex machinations'],
-57 : ['The Mermaid ', ' Seduction and risky affairs', 'heartbreak and tragic endings', 'a heartsick woman'],
-58 : ['The Manticore ', ' Close alliances and co-conspirators', 'your misdeeds will bind you to your partners in crime', 'A gang or party'],
+56 : ['The Spider ', 'Beware of traps and snares', 'Failure unless you spot all the complications', 'Someone of few words and complex machinations'],
+57 : ['The Mermaid ', 'Seduction and risky affairs', 'heartbreak and tragic endings', 'a heartsick woman'],
+58 : ['The Manticore ', 'Close alliances and co-conspirators', 'your misdeeds will bind you to your partners in crime', 'A gang or party'],
 59 : ['The Viper ', "Meddling in places you don't belong", 'there week be a cost for getting involved in matters that are not your place', 'a dangerous loner'],
-60 : ['The Leviathan ', ' A natural or unavoidable disaster', 'outcome determined by circumstances beyond your control', 'Someone linked to the Void'],
-61 : ['The Scorpion ', ' Someone will try and ruin you', 'You will be struck at at every turn', 'Someone with a petty grudge'],
-62 : ['The Wasps ', ' Mass hysteria and mob rule', 'outcome will be decided by the crowd', 'a group or mob'],
+60 : ['The Leviathan ', 'A natural or unavoidable disaster', 'outcome determined by circumstances beyond your control', 'Someone linked to the Void'],
+61 : ['The Scorpion ', 'Someone will try and ruin you', 'You will be struck at at every turn', 'Someone with a petty grudge'],
+62 : ['The Wasps ', 'Mass hysteria and mob rule', 'outcome will be decided by the crowd', 'a group or mob'],
 63 : ['The Bear', 'Guarding that which you love', 'Someone or something you care about will rely on you to aid them', 'Protective older person'],
-64 : ['The Sword ', ' Strength', 'Your strength will determine the outcome', 'A knight or military officer'],
-65 : ['The Spear ', ' Protection', 'Your ability to protect someone or something will determine the outcome ', ' A guard or soldier'],
-66 : ['The Axe ', ' You will be the agent of justice', ' your judgement or actions will determine if justice is served', 'a vigilante'],
+64 : ['The Sword ', 'Strength', 'Your strength will determine the outcome', 'A knight or military officer'],
+65 : ['The Spear ', 'Protection', 'Your ability to protect someone or something will determine the outcome ', 'A guard or soldier'],
+66 : ['The Axe ', 'You will be the agent of justice', 'your judgement or actions will determine if justice is served', 'a vigilante'],
 67 : ['The Hammer', 'Force', 'Outcome will be determined by martial prowess', 'A ruffian or barbarian'],
 68 : ['The Knife', 'Guile', 'Outcome will be determined by cunning', 'A courtier or diplomat'],
 69 : ['The Rose', 'Winning fame or favor', 'You success will earn you reputation and acclaim', 'A young and beautiful woman'],
-70 : ['The Broken Tower ', ' Calamity', 'Failure of Endeavors', 'Someone who has suffered a recent failure.'],
+70 : ['The Broken Tower ', 'Calamity', 'Failure of Endeavors', 'Someone who has suffered a recent failure.'],
 71 : ['The Bridge', 'Joining together of two unlikely things', 'Unexpected alliances', 'A foe turned friend'],
 72 : ['The Gallows Tree', 'Punishment', 'Making amends for your actions or words', 'A criminal'],
 73 : ['The Poisoned Cup', 'A gift, reward, or treasure will bring misfortune', 'Even an apparent success will reap sorrow', 'Someone who will try to ply you with false generosity'],
@@ -88,7 +88,7 @@ cardDeck = {
 87 : ['The Full Moon', 'True predictions', 'An unfolding of prophecy or fortunes', 'A seer'],
 88 : ['Wind', 'Constant changes and reversals', 'No results, good or bad, will endure for long', 'A moody or unstable person'],
 89 : ['Snow', 'Confusion and obfuscation', 'You will remain in ignorance or confusion', 'A mute'],
-90 : ['The Star ', ' A quest or journey', 'the start of a new mission', 'a mentor or guide'],
+90 : ['The Star ', 'A quest or journey', 'the start of a new mission', 'a mentor or guide'],
 91 : ['The Demon', 'Punishment', 'All sins punished', 'A torturer'],
 92 : ['The Devil', 'Bargains and deals', 'An arrangement twisted against you', 'A drafter of contracts'],
 93 : ['The Fey', 'Mysteries', 'Inconclusive or strange endings', 'A mysterious or unknown person'],
@@ -124,8 +124,9 @@ for i in t:
     print()
 
     print('Fortune: ')
-    print(' ' + cardDeck[choices[0]][1] + ', ' + cardDeck[choices[1]][2] + ', ' + cardDeck[choices[2]][3])
+    print('  ' + cardDeck[choices[0]][1] + ',\n  ' + cardDeck[choices[1]][2] + ',\n  ' + cardDeck[choices[2]][3])
 
     print()
 
-
+print('Press Enter to exit...')
+input()
